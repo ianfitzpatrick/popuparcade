@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="0" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
+        <control default="" defaultValue="" desc="" dropdown="" fullname="AnalogUpFloat" hidden="false" id="1" name="_AnalogUpFloat" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="3" name="init" order="3" repeats="true"/>
+            <event displayName="P2 Cone and Laser" enabled="true" id="4" name="step" order="30" repeats="true"/>
+            <event displayName="Debug Gamepad" enabled="true" id="6" name="event-gamepad-any-press-release" order="29" repeats="false"/>
+            <event displayName="P1 Cone and Laser" enabled="true" id="8" name="step" order="31" repeats="false"/>
+            <event displayName="Match Over" enabled="true" id="10" name="draw" order="13" repeats="true"/>
+            <event displayName="Set Help Text Keyboard" enabled="true" id="17" name="draw" order="17" repeats="true"/>
+            <event displayName="Restart Match" enabled="true" id="19" name="event-key-press-release" order="15" repeats="true"/>
+            <event displayName="Restart Match" enabled="true" id="20" name="draw" order="14" repeats="true"/>
+            <event displayName="Match Intro" enabled="true" id="21" name="init" order="11" repeats="true"/>
+            <event displayName="Toggle Gamepad Keyboard" enabled="true" id="22" name="event-key-press-release" order="8" repeats="true"/>
+            <event displayName=" Set Help Text Gamepad" enabled="true" id="23" name="draw" order="21" repeats="true"/>
+            <event displayName="Map Gamepad Buttons" enabled="true" id="24" name="init" order="7" repeats="true"/>
+            <event displayName="Set Difficulty Level Easy" enabled="true" id="25" name="event-key-press-release" order="4" repeats="true"/>
+            <event displayName="Set Difficulty Level Medium" enabled="true" id="26" name="event-key-press-release" order="5" repeats="true"/>
+            <event displayName="Set Difficulty Level Hard" enabled="true" id="27" name="event-key-press-release" order="6" repeats="false"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_1" classname="scripts.ActorEvents_1" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_1" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="PlayerHit" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_3" classname="scripts.ActorEvents_3" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" name="ActorEvents_3" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="30.0" defaultValue="30.0" desc="" dropdown="" fullname="Unbow Rate" hidden="false" id="1" name="_UnbowRate" order="0"/>
+        <number default="3.0" defaultValue="3.0" desc="" dropdown="" fullname="Bow Rate" hidden="false" id="2" name="_BowRate" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="Button Mash Bow" enabled="true" id="4" name="event-key-press-release" order="4" repeats="false"/>
+            <event displayName="Come to A Rest" enabled="true" id="5" name="step" order="8" repeats="false"/>
+            <event displayName="Reset Bow Angle on Collision" enabled="true" id="9" name="step" order="9" repeats="false"/>
+            <event displayName="Match Over Bow" enabled="true" id="10" name="draw" order="10" repeats="true"/>
+            <event displayName="PlayerHit" enabled="true" id="11" name="draw" order="11" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_5" classname="scripts.ActorEvents_5" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="3" name="ActorEvents_5" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_7" classname="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_7" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_9" classname="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_9" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="1.0" defaultValue="1.0" desc="" dropdown="" fullname="ScaleSize" hidden="false" id="1" name="_ScaleSize" order="0"/>
+        <number default="-200.0" defaultValue="-200.0" desc="" dropdown="" fullname="ScaleMultiple" hidden="false" id="2" name="_ScaleMultiple" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="GrowLaser" hidden="false" id="3" name="_GrowLaser" order="3"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="LaserDown" hidden="false" id="4" name="_LaserDown" order="4"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="LaserUp" hidden="false" id="5" name="_LaserUp" order="5"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="GrowLaserReleased" hidden="false" id="6" name="_GrowLaserReleased" order="6"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="LaserAngleNeedsReset" hidden="false" id="7" name="_LaserAngleNeedsReset" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="6" name="init" order="1" repeats="true"/>
+            <event displayName="LaserRightStart" enabled="true" id="7" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="Grow Laser" enabled="true" id="8" name="draw" order="3" repeats="true"/>
+            <event displayName="Reset Laser" enabled="true" id="10" name="draw" order="6" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="11" name="collide" order="5" repeats="false"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_11" classname="scripts.ActorEvents_11" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="6" name="ActorEvents_11" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="PlayerHit" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_13" classname="scripts.ActorEvents_13" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="7" name="ActorEvents_13" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+            <event displayName="Created" enabled="false" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_17" classname="scripts.ActorEvents_17" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" name="ActorEvents_17" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_19" classname="scripts.ActorEvents_19" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="9" name="ActorEvents_19" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_21" classname="scripts.ActorEvents_21" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="10" name="ActorEvents_21" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_23" classname="scripts.ActorEvents_23" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_23" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="30.0" defaultValue="30.0" desc="" dropdown="" fullname="Unbow Rate" hidden="false" id="1" name="_UnbowRate" order="0"/>
+        <number default="3.0" defaultValue="3.0" desc="" dropdown="" fullname="Bow Rate" hidden="false" id="2" name="_BowRate" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="Button Mash Bow" enabled="true" id="4" name="event-key-press-release" order="6" repeats="false"/>
+            <event displayName="Come to A Rest" enabled="true" id="5" name="step" order="12" repeats="true"/>
+            <event displayName="Reset Bow Angle on Collision" enabled="true" id="9" name="step" order="13" repeats="true"/>
+            <event displayName="Match Over Bow" enabled="true" id="10" name="draw" order="7" repeats="true"/>
+            <event displayName="PlayerHit" enabled="true" id="11" name="draw" order="14" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_25" classname="scripts.ActorEvents_25" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="12" name="ActorEvents_25" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_27" classname="scripts.ActorEvents_27" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_27" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="1.0" defaultValue="1.0" desc="" dropdown="" fullname="ScaleSize" hidden="false" id="1" name="_ScaleSize" order="0"/>
+        <number default="-200" defaultValue="-200" desc="" dropdown="" fullname="ScaleMultiple" hidden="false" id="2" name="_ScaleMultiple" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="GrowLaser" hidden="false" id="3" name="_GrowLaser" order="3"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="LaserDown" hidden="false" id="4" name="_LaserDown" order="4"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="LaserUp" hidden="false" id="5" name="_LaserUp" order="5"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="GrowLaserReleased" hidden="false" id="6" name="_GrowLaserReleased" order="6"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="LaserAngleNeedsReset" hidden="false" id="7" name="_LaserAngleNeedsReset" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Laser Feet Collide" enabled="true" id="16" name="event-collide-grouptogroup" order="19" repeats="false"/>
+            <event displayName="LaserRightStart" enabled="true" id="1" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="6" name="init" order="1" repeats="true"/>
+            <event displayName="Grow Laser" enabled="true" id="13" name="draw" order="17" repeats="true"/>
+            <event displayName="Reset Laser" enabled="true" id="14" name="draw" order="20" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_36" classname="scripts.ActorEvents_36" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="14" name="ActorEvents_36" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_38" classname="scripts.ActorEvents_38" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="15" name="ActorEvents_38" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action1 Pressed" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
+            <event displayName="Action1 Released" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_42" classname="scripts.ActorEvents_42" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="16" name="ActorEvents_42" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action2 Pressed" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
+            <event displayName="Action2 REleased" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_44" classname="scripts.ActorEvents_44" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="17" name="ActorEvents_44" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action1 Pressed" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
+            <event displayName="Action1 Released" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_46" classname="scripts.ActorEvents_46" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="18" name="ActorEvents_46" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action1 Released" enabled="true" id="1" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="Action1 Pressed" enabled="true" id="2" name="event-key-press-release" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_48" classname="scripts.ActorEvents_48" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="19" name="ActorEvents_48" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_50" classname="scripts.ActorEvents_50" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="20" name="ActorEvents_50" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_54" classname="scripts.ActorEvents_54" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="22" name="ActorEvents_54" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_56" classname="scripts.ActorEvents_56" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="23" name="ActorEvents_56" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_58" classname="scripts.ActorEvents_58" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="24" name="ActorEvents_58" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_60" classname="scripts.ActorEvents_60" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="25" name="ActorEvents_60" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_62" classname="scripts.ActorEvents_62" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="26" name="ActorEvents_62" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_64" classname="scripts.ActorEvents_64" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="27" name="ActorEvents_64" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action1 Pressed" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
+            <event displayName="Action1 Released" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_66" classname="scripts.ActorEvents_66" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="28" name="ActorEvents_66" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action1 Released" enabled="true" id="1" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="Action1 Pressed" enabled="true" id="2" name="event-key-press-release" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_68" classname="scripts.ActorEvents_68" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="29" name="ActorEvents_68" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action1 Pressed" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
+            <event displayName="Action1 Released" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_70" classname="scripts.ActorEvents_70" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="30" name="ActorEvents_70" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Action1 Pressed" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
+            <event displayName="Action1 Released" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_77" classname="scripts.ActorEvents_77" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="31" name="ActorEvents_77" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>

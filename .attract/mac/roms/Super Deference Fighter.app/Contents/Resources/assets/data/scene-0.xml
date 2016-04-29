@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="15" desc="" eventsnippetid="0" extheight="672" extwidth="1280" extx="-32" exty="-32" format="3.3.0" gravx="-0.0" gravy="0.0" height="608" id="0" name="Level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1216">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="level1" opacity="100" order="15" rid="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="3" locked="false" name="Layer 3" opacity="100" order="14" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="lighten" color="255,0,255" id="4" locked="false" name="Layer 4" opacity="100" order="13" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,175,175" id="5" locked="false" name="P2 Laser" opacity="100" order="12" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="7" locked="false" name="P1 Bow Cone" opacity="100" order="11" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,0,0" id="8" locked="false" name="P1 Laser" opacity="100" order="10" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="P2 Torso" opacity="100" order="9" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,200,0" id="6" locked="false" name="P2 Feet" opacity="100" order="8" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,255,0" id="9" locked="false" name="Glowing Feet" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="10" locked="false" name="P1 Help Bow" opacity="100" order="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="11" locked="false" name="Match End Banner" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,0,255" id="12" locked="false" name="Rematch" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,175,175" id="13" locked="false" name="MatchStartBG" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,200,0" id="14" locked="false" name="BButtons" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="15" locked="false" name="XButtons" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,0,0" id="16" locked="false" name="Title Screen" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="3" name="Player2Torso 1" sx="1.0" sy="1.0" x="798" y="179" z="2"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="1" name="Player2Legs 2" sx="1.0" sy="1.0" x="855" y="366" z="2"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="5" name="Circle of Bow 3" sx="1.0" sy="1.0" x="334" y="25" z="3"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="7" name="Player2BowCone 4" sx="1.0" sy="1.0" x="695" y="166" z="4"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="9" name="LaserRight 5" sx="1.0" sy="1.0" x="753" y="326" z="5"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="11" name="Player1Legs 6" sx="1.0" sy="1.0" x="250" y="366" z="6"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="19" name="Player2Title 8" sx="1.0" sy="1.0" x="994" y="96" z="6"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="21" name="Player1Title 9" sx="1.0" sy="1.0" x="64" y="96" z="6"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="13" name="MeterPlayer2 10" sx="1.0" sy="1.0" x="992" y="32" z="6"/>
+        <actor a="0.0" aid="11" c="false" group="0" id="23" name="Player1Torso 11" sx="1.0" sy="1.0" x="64" y="179" z="2"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="25" name="Player1BowCone 14" sx="1.0" sy="1.0" x="334" y="165" z="7"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="17" name="MeterPlayer1 16" sx="1.0" sy="1.0" x="64" y="32" z="6"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="27" name="LaserLeft 17" sx="1.0" sy="1.0" x="473" y="326" z="8"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="36" name="Player2FeetGlow 18" sx="1.0" sy="1.0" x="692" y="420" z="9"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="38" name="XKey 20" sx="1.0" sy="1.0" x="30" y="526" z="10"/>
+        <actor a="0.0" aid="21" c="false" group="3" id="44" name="MKey 21" sx="1.0" sy="1.0" x="1139" y="527" z="10"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="48" name="Player1FeetGlow 22" sx="1.0" sy="1.0" x="179" y="416" z="9"/>
+        <actor a="0.0" aid="23" c="false" group="3" id="42" name="ZKey 23" sx="1.0" sy="1.0" x="30" y="526" z="10"/>
+        <actor a="0.0" aid="24" c="false" group="3" id="46" name="NKey 24" sx="1.0" sy="1.0" x="1139" y="527" z="10"/>
+        <actor a="0.0" aid="25" c="false" group="3" id="50" name="MatchOverBanner 25" sx="1.0" sy="1.0" x="-1200" y="148" z="11"/>
+        <actor a="0.0" aid="26" c="false" group="3" id="38" name="XKey 26" sx="1.0" sy="1.0" x="475" y="486" z="12"/>
+        <actor a="0.0" aid="27" c="false" group="3" id="62" name="MatchStartBG 27" sx="1.0" sy="1.0471381" x="322" y="-623" z="16"/>
+        <actor a="0.0" aid="28" c="false" group="3" id="56" name="MatchStart1 28" sx="1.0" sy="1.0" x="300" y="-600" z="16"/>
+        <actor a="0.0" aid="29" c="false" group="3" id="58" name="MatchStart3 29" sx="1.0" sy="1.0" x="305" y="-570" z="16"/>
+        <actor a="0.0" aid="30" c="false" group="3" id="54" name="MatchStart2 30" sx="1.0" sy="1.0" x="301" y="-573" z="16"/>
+        <actor a="0.0" aid="31" c="false" group="3" id="60" name="MatchStartFight 31" sx="1.0" sy="1.0" x="291" y="-563" z="16"/>
+        <actor a="0.0" aid="32" c="false" group="3" id="66" name="P2BButton 32" sx="1.0" sy="1.0" x="1139" y="528" z="14"/>
+        <actor a="0.0" aid="33" c="false" group="3" id="64" name="P1BButton 33" sx="1.0" sy="1.0" x="30" y="527" z="14"/>
+        <actor a="0.0" aid="34" c="false" group="3" id="70" name="P2XButton 34" sx="1.0" sy="1.0" x="1138" y="528" z="15"/>
+        <actor a="0.0" aid="35" c="false" group="3" id="68" name="P1XButton 35" sx="1.0" sy="1.0" x="30" y="527" z="15"/>
+        <actor a="0.0" aid="36" c="false" group="3" id="64" name="P1BButton 36" sx="1.0" sy="1.0" x="474" y="487" z="14"/>
+        <actor a="0.0" aid="37" c="false" group="3" id="77" name="TitleLogo 37" sx="1.0" sy="1.0" x="196" y="57" z="16"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>
