@@ -11,7 +11,7 @@ What you get is a sort of kiosk of games that you can scroll through using your 
     + Game description
     + Number of total games + what entry you are viewing ("2/15")
 
-[Here's how it looks!](https://www.youtube.com/watch?v=WwnzwPHY1yI)
+[Here's how it looks!](https://www.youtube.com/watch?v=1sqFD52btIo)
 
 This is a custom layout I adapted for Attract Mode. It's working within the constraint of "getting artwork for games at the appropriate sizes is hard, but everybody has a trailer."
 
