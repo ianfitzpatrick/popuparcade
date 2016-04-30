@@ -25,6 +25,11 @@ Please note all instructions are for Mac OS X, and have been tested specifically
 
 However it should be fairly easy to adapt these instructions to Windows as well.
 
+##### Sidebar For Those Who Know What They Are Doing Already
+
+If you already know how to use Attract Mode and just want a layout that works well for a popup arcade, [get the popuparacde layout here](https://github.com/ianfitzpatrick/popuparcadelayout).
+
+
 ### The Basics
 
 The five things you need to run the arcade are:
