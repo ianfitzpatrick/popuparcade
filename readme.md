@@ -19,7 +19,7 @@ It's also assumed you are using a bigscreen TV and XBox 360 Gamepads. So 1080p r
 
 Hitting the `a button` on XBox 360 gamepad will launch a game.
 
-And if you follow the `Enjoy 2` instructions, `select` + `start` will quit any game.
+And if you follow the `Enjoyable` instructions, `select` + `start` will quit any game.
 
 Please note all instructions are for Mac OS X, and have been tested specifically on 10.11 El Capitan. 
 
@@ -41,7 +41,7 @@ The five things you need to run the arcade are:
     +  The actual game executables (called 'roms')
     +  Video trailers for games
 3. Latest XBox 360 Driver for Mac
-4. Enjoy 2 (gamepad -> key mapper)
+4. Enjoyable (gamepad -> key mapper)
 5. Re-map Attract Mode quit key
 
 ### 1. Attract Mode
@@ -116,19 +116,38 @@ Plug it in and make sure things are working.
 
 Gamepads have a way of changing "who player one is" so all gamepads have been configured to control Attract Mode.
 
-### 4. Enjoy 2 Key Mappings
+### 4. Enjoyable Key Mappings
 
-Enjoy 2 allows us to map `Select + Start` to `⌘Q`, creating a global quit key combo.
+Enjoyable allows us to map `Select + Start` to `⌘Q`, creating a global quit key combo.
 
 This allows players to have a totally keyboard-less gaming experience. Launching and quitting back to attract mode entirely with the gamepad.
 
-##### Configuring Enjoy 2
+##### Configuring Enjoyable
 
-First [get and install Enjoy 2](https://github.com/fyhuang/enjoy2/releases). 
+First [get and install Enjoy 2](https://yukkurigames.com/enjoyable/). 
 
-Next copy the `Enjoy2` folder from this repo to `~/Application Support`, overwriting the existing `Enjoy2` folder that is there.
+Next double click the the `popuparcade.enjoyable` key layout file. 
 
-Then open Enjoy 2 and click `Start` to enable the mappings. Just minimize Enjoy 2 and keep it running in the background.
+This will load the saved profile that allows you to quit any game with by pressing `SEELCT` + `START`. Just minimize Enjoy 2 and keep it running in the background.
+
+This mapping also includes some extra keys mappings for games that don't natively support gamepads. Here are the mappings:
+
+```
+D-Pad Up: p
+D-Pad Down: ;
+D-Pad Left: l
+D-Pad Right: '
+
+
+A : [
+B : ]
+X : -
+Y : =
+```
+
+Rarely used keys were purposely selected here, so as to try and avoid key mapping conflicts with other games.
+
+Mappings for players 1-4 XBOX 360 controllers have already been entered.
 
 ### 5. Re-map Attract Mode Quit Key
 
