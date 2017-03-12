@@ -1,0 +1,165 @@
+{
+  "name" : "Popup Arcade",
+  "entries" : {
+    "1118:654:1~Button 10" : {
+      "type" : "key press",
+      "key" : 12
+    },
+    "1118:654:1~Button 18" : {
+      "type" : "key press",
+      "key" : 30
+    },
+    "1118:654:1~Button 9" : {
+      "type" : "key press",
+      "key" : 39
+    },
+    "1118:654:1~Button 8" : {
+      "type" : "key press",
+      "key" : 37
+    },
+    "1118:654:1~Button 7" : {
+      "type" : "key press",
+      "key" : 41
+    },
+    "1118:654:1~Button 17" : {
+      "type" : "key press",
+      "key" : 33
+    },
+    "1118:654:1~Button 6" : {
+      "type" : "key press",
+      "key" : 35
+    },
+    "1118:654:1~Button 20" : {
+      "type" : "key press",
+      "key" : 24
+    },
+    "1118:654:1~Button 11" : {
+      "type" : "key press",
+      "key" : 55
+    },
+    "1118:654:1~Button 19" : {
+      "type" : "key press",
+      "key" : 27
+    },
+    "1118:654:2~Button 10" : {
+      "type" : "key press",
+      "key" : 12
+    },
+    "1118:654:2~Button 18" : {
+      "type" : "key press",
+      "key" : 30
+    },
+    "1118:654:2~Button 9" : {
+      "type" : "key press",
+      "key" : 39
+    },
+    "1118:654:2~Button 8" : {
+      "type" : "key press",
+      "key" : 37
+    },
+    "1118:654:2~Button 7" : {
+      "type" : "key press",
+      "key" : 41
+    },
+    "1118:654:2~Button 17" : {
+      "type" : "key press",
+      "key" : 33
+    },
+    "1118:654:2~Button 6" : {
+      "type" : "key press",
+      "key" : 35
+    },
+    "1118:654:2~Button 20" : {
+      "type" : "key press",
+      "key" : 24
+    },
+    "1118:654:2~Button 11" : {
+      "type" : "key press",
+      "key" : 55
+    },
+    "1118:654:2~Button 19" : {
+      "type" : "key press",
+      "key" : 27
+    },
+    "1118:654:3~Button 10" : {
+      "type" : "key press",
+      "key" : 12
+    },
+    "1118:654:3~Button 18" : {
+      "type" : "key press",
+      "key" : 30
+    },
+    "1118:654:3~Button 9" : {
+      "type" : "key press",
+      "key" : 39
+    },
+    "1118:654:3~Button 8" : {
+      "type" : "key press",
+      "key" : 37
+    },
+    "1118:654:3~Button 7" : {
+      "type" : "key press",
+      "key" : 41
+    },
+    "1118:654:3~Button 17" : {
+      "type" : "key press",
+      "key" : 33
+    },
+    "1118:654:3~Button 6" : {
+      "type" : "key press",
+      "key" : 35
+    },
+    "1118:654:3~Button 20" : {
+      "type" : "key press",
+      "key" : 24
+    },
+    "1118:654:3~Button 11" : {
+      "type" : "key press",
+      "key" : 55
+    },
+    "1118:654:3~Button 19" : {
+      "type" : "key press",
+      "key" : 27
+    },    
+    "1118:654:4~Button 10" : {
+      "type" : "key press",
+      "key" : 12
+    },
+    "1118:654:4~Button 18" : {
+      "type" : "key press",
+      "key" : 30
+    },
+    "1118:654:4~Button 9" : {
+      "type" : "key press",
+      "key" : 39
+    },
+    "1118:654:4~Button 8" : {
+      "type" : "key press",
+      "key" : 37
+    },
+    "1118:654:4~Button 7" : {
+      "type" : "key press",
+      "key" : 41
+    },
+    "1118:654:4~Button 17" : {
+      "type" : "key press",
+      "key" : 33
+    },
+    "1118:654:4~Button 6" : {
+      "type" : "key press",
+      "key" : 35
+    },
+    "1118:654:4~Button 20" : {
+      "type" : "key press",
+      "key" : 24
+    },
+    "1118:654:4~Button 11" : {
+      "type" : "key press",
+      "key" : 55
+    },
+    "1118:654:4~Button 19" : {
+      "type" : "key press",
+      "key" : 27
+    }
+  }
+}
